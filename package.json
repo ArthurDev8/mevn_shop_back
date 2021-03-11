@@ -1,0 +1,31 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "boom": "^7.3.0",
+    "cors": "^2.8.5",
+    "dollars-to-cents": "^1.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9",
+    "nodemailer": "^6.5.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.6",
+    "password-hash": "^1.2.2",
+    "qs": "^6.9.4",
+    "ramda": "^0.27.1",
+    "stripe": "^8.132.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
