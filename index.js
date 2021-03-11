@@ -31,10 +31,6 @@ routes.forEach((item) => {
   app.use(`/${item}`, require(`./src/routes/${item}`));
 });
 
-// if(process.env.NODE_ENV === 'production'){
-//   app.use(express.static('front/dist'))
-// }
-
 
 
 const PORT = process.env.PORT;
